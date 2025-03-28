@@ -1,0 +1,1 @@
+DATABASE_URI = 'mysql://root:Simon@1954@127.0.0.1/locallensdb'
