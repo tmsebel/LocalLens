@@ -3,7 +3,7 @@ from __init__ import db #Import db from __init__.py
 import models
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Simon%401954@127.0.0.1/beryldb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:use your own database credentials'
 
 @app.route('/restaurants/search', methods=['GET'])
 def search_restaurants():
